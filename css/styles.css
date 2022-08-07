@@ -1,0 +1,92 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+#general{
+    width: 70%;
+    margin: 0px auto;
+}
+
+#header{
+    width: 70%;
+    margin: 0px auto;
+}
+.text{
+    margin-left: 35%;
+    margin-top: 15px;
+}
+.tittle{
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: 45px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+.lighter{
+    font-weight: lighter;
+}
+#main{
+    width: 70%;
+    display: flex;
+    margin: 0px auto;
+}
+.user{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mr25{
+    margin-top: 25px;
+}
+.bordered{
+    border: 4px solid;
+}
+.side{
+    width: 20%;
+    height: 250px;
+    margin-top: 15px;
+}
+.side img{
+    width: 70px;
+}
+.info{
+    width: 75%;
+    margin-left: 15px;
+}
+.like{
+    height: 150px;
+    margin-left: auto;
+    margin-top: 15px;
+}
+.name{
+    display:flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.name p {
+    margin-left:auto;
+}
+.aling{
+    margin-left: 50px;
+}
+
+.name button{
+    width: 50px;
+    height: 25px;
+    background-color: rgb(227, 227, 0);
+    color: black;
+    border: 3px solid;
+    box-shadow: 2px 2px 0px 0px black;
+    margin-left: 5%;
+}
+.name button:hover
+{
+background-color: rgb(206, 213, 8);
+
+}
+.desc{
+    margin: 15px;
+}
